@@ -1,17 +1,27 @@
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+
+// root = [2,1,3]
 var isValidBST = function (root) {
-  return traverse(root, null, null);
+  function recurse(root, min, max) {
+    // base case
+    if (root === null) return true;
+
+    if (root.val >= max || root.val <= min) {
+      return false;
+    }
+
+    // recurrence relation
+    return (
+      recurse(root.left, min, root.val) && recurse(root.right, root.val, max)
+    );
+  }
+
+  return recurse(root, -Infinity, Infinity);
 };
-
-function traverse(root, min, max) {
-  if (!root) {
-    return true;
-  }
-
-  if ((min !== null && root.val <= min) || (max !== null && root.val >= max)) {
-    return false;
-  }
-
-  return (
-    traverse(root.left, min, root.val) && traverse(root.right, root.val, max)
-  );
-}

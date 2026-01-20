@@ -1,3 +1,4 @@
+// nums = [1, 2, 3, 4]
 var productExceptSelf = function (nums) {
   let forwardArr = [];
   let start1 = 1;
@@ -9,11 +10,12 @@ var productExceptSelf = function (nums) {
 
   let res = [];
   let start2 = 1;
-
+  // forwardArr = [1, 1, 2, 6]
   for (let i = nums.length - 1; i >= 0; i--) {
     res.unshift(start2 * forwardArr[i]);
     start2 = start2 * nums[i];
   }
-
+  // res = [24, 12, 8, 6]
   return res;
 };
+// O(n + m)
