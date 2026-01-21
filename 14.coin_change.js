@@ -1,0 +1,17 @@
+// dynamic programming: bottom up
+var coinChange = function (coins, amount) {
+  let dp = new Array(amount + 1).fill(Infinity);
+
+  // base case
+  dp[0] = 0;
+
+  for (let curAmount = 1; curAmount <= amount; curAmount++) {
+    for (let coin of coins) {
+      if (curAmount - coin >= 0) {
+        dp[curAmount] = Math.min(dp[curAmount], 1 + dp[curAmount - coin]);
+      }
+    }
+  }
+
+  return dp[amount] > amount ? -1 : dp[amount];
+};
