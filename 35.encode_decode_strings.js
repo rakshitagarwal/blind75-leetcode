@@ -8,8 +8,6 @@ var decode = function (s) {
   return s.split("-encodeStr");
 };
 
-const strs = ["hello", "world"];
-const enc = encode(strs);
-console.log("enc", enc);
-const dec = decode(enc);
-console.log("dec", dec);
+// const strs = ["hello", "world"];
+// const enc = encode(strs);
+// const dec = decode(enc);

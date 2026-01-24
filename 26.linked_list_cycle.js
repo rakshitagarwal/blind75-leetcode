@@ -28,3 +28,6 @@ var hasCycle = function (head) {
   // No cycle
   return false;
 };
+
+// input: head = [3,2,0,-4], pos = 1
+// output: true

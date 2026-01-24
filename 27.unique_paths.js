@@ -13,3 +13,9 @@ var uniquePaths = function (m, n) {
   // final location to reach
   return dp[m - 1][n - 1];
 };
+
+// m = 3, n = 2
+// output: 3
+
+// m = 3, n = 7
+// output: 28

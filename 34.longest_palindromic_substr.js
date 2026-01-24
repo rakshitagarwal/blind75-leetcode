@@ -22,3 +22,6 @@ var longestPalindrome = function (s) {
 
   return longest;
 };
+
+//  s = "babad" output = "bab"
+//  s = "cbbd" output = "bb"

@@ -49,3 +49,6 @@ function findKth(arr, k) {
     if (i === k - 1) return arr[i];
   }
 }
+
+// root = [3, 1, 4, null, 2], k = 1
+// output: 1
