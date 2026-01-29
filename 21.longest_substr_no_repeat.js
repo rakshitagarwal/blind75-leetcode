@@ -20,3 +20,9 @@ var lengthOfLongestSubstring = function (s) {
 
   return longestStr;
 };
+
+// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+// example Input: s = "abcabcbb" Output: 3
+// example Input: s = "bbbbb" Output: 1
+// example Input: s = "pwwkew" Output: 3

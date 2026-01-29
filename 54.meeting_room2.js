@@ -17,4 +17,5 @@ var minMeetingRooms = function (intervals) {
   return rooms;
 };
 
+// https://leetcode.com/problems/meeting-rooms-ii/
 // example Input: intervals = [[0,30],[5,10],[15,20]] Output: 2

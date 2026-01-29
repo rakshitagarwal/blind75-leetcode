@@ -16,4 +16,7 @@ var eraseOverlapIntervals = function (intervals) {
   return count;
 };
 
+// https://leetcode.com/problems/non-overlapping-intervals/
 // example Input: intervals = [[1,2],[2,3],[3,4],[1,3]] Output: 1
+// example Input: intervals = [[1,2],[1,2],[1,2]] Output: 2
+// example Input: intervals = [[1,2],[2,3]] Output: 0

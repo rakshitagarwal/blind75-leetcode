@@ -17,3 +17,10 @@ var isValid = function (s) {
 
   return stack.length === 0;
 };
+
+// https://leetcode.com/problems/valid-parentheses/
+// example Input: s = "()" Output: true
+// example Input: s = "()[]{}" Output: true
+// example Input: s = "(]" Output: false
+// example Input: s = "([)]" Output: false
+// example Input: s = "{[]}" Output: true

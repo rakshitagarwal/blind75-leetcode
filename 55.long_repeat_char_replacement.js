@@ -21,6 +21,7 @@ var characterReplacement = function (s, k) {
   return longest;
 };
 
+// https://leetcode.com/problems/longest-repeating-character-replacement/
 // example 1:
 // Input: s = "AABABBA", k = 1
 // Output: 4

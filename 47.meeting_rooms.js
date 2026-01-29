@@ -11,6 +11,7 @@ var canAttachMeetings = function (intervals) {
   return true;
 };
 
+// https://leetcode.com/problems/meeting-rooms/
 // example Input: intervals = [[0,30],[5,10],[15,20]] Output: false
 // example Input: intervals = [[7,10],[2,4]] Output: true
 // example Input: intervals = [[6,7],[2,4],[8,12]] Output: false

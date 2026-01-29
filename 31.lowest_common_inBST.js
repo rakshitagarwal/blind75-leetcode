@@ -16,6 +16,7 @@ var lowestCommonAncestor = function (root, p, q) {
   }
 };
 
+// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 // [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
 // output: 6
 

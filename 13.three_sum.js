@@ -30,3 +30,8 @@ var threeSum = function (nums) {
 
   return res;
 };
+
+// https://leetcode.com/problems/3sum/
+// example Input: nums = [-1,0,1,2,-1,-4] Output: [[-1,-1,2],[-1,0,1]]
+// example Input: nums = [0,1,1] Output: []
+// example Input: nums = [0,0,0] Output: [[0,0,0]]

@@ -17,6 +17,7 @@ var longestCommonSubsequence = function (text1, text2) {
   return dp[m][n];
 };
 
+// https://leetcode.com/problems/longest-common-subsequence/
 // example Input: text1 = "abcde", text2 = "ace" Output: 3
 // example Input: text1 = "abc", text2 = "abc" Output: 3
 // example Input: text1 = "abc", text2 = "def" Output: 0

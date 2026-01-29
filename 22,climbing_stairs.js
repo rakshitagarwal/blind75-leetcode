@@ -10,3 +10,10 @@ var climbStairs = function (n) {
 
   return dp[n];
 };
+
+// https://leetcode.com/problems/climbing-stairs/
+// example Input: n = 2 Output: 2
+// example Input: n = 3 Output: 3
+
+// Time complexity: O(n)
+// Space complexity: O(n)

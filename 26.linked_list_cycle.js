@@ -29,5 +29,9 @@ var hasCycle = function (head) {
   return false;
 };
 
+// https://leetcode.com/problems/linked-list-cycle/
 // input: head = [3,2,0,-4], pos = 1
+// output: true
+
+// input: head = [1,2], pos = 0
 // output: true

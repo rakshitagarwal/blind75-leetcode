@@ -14,3 +14,8 @@ var rob = function (nums) {
 
   return dp[dp.length - 1];
 };
+
+// https://leetcode.com/problems/house-robber/
+// example
+// nums = [1, 2, 3, 1] output: 4
+// nums = [2, 7, 9, 3, 1] output: 12

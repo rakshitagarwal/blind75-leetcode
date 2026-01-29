@@ -30,3 +30,7 @@ var isAnagram = function (s, t) {
 
   return true;
 };
+
+// https://leetcode.com/problems/valid-anagram/
+// example Input: s = "anagram", t = "nagaram" Output: true
+// example Input: s = "rat", t = "car" Output: false

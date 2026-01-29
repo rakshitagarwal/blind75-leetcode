@@ -32,3 +32,13 @@ var exist = function (board, word) {
     board[r][c] = word[i];
   }
 };
+
+// https://leetcode.com/problems/word-search/
+// Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
+// Output: true
+
+// Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
+// Output: true
+
+// Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
+// Output: false

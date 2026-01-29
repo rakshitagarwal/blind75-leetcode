@@ -30,3 +30,7 @@ var maxDepth = function (root) {
 
   return depth;
 };
+
+// https://leetcode.com/problems/maximum-depth-of-binary-tree/
+// example Input: root = [3,9,20,null,null,15,7] Output: 3
+// example Input: root = [1,null,2] Output: 2

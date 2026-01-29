@@ -16,4 +16,5 @@ var longestConsecutive = function (nums) {
   return streak;
 };
 
+// https://leetcode.com/problems/longest-consecutive-sequence/
 // console.log(longestConsecutive([100, 4, 200, 1, 3, 2]));

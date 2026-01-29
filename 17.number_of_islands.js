@@ -31,3 +31,7 @@ var numIslands = function (grid) {
 
   return count;
 };
+
+// https://leetcode.com/problems/number-of-islands/
+// example Input: grid = [["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]] Output: 1
+// example Input: grid = [["1","1","0","0","0"],["1","1","0","0","0"],["0","0","1","0","0"],["0","0","0","1","1"]] Output: 3

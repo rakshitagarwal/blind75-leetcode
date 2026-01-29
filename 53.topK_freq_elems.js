@@ -18,7 +18,7 @@ var topKFrequent = function (nums, k) {
   return result;
 };
 
-// video solution nit working anymore
+// video solution not working anymore
 var topKFrequent = function (nums, k) {
   let map = {};
   let bucket = [];
@@ -48,6 +48,7 @@ var topKFrequent = function (nums, k) {
   return result;
 };
 
+// https://leetcode.com/problems/top-k-frequent-elements/
 // example
 // nums = [1, 1, 1, 2, 2, 3], k = 2
 // output = [1, 2]

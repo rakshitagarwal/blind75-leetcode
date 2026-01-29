@@ -25,3 +25,7 @@ var isValidBST = function (root) {
 
   return recurse(root, -Infinity, Infinity);
 };
+
+// https://leetcode.com/problems/validate-binary-search-tree/
+// example Input: root = [2,1,3] Output: true
+// example Input: root = [5,1,4,null,null,3,6] Output: false

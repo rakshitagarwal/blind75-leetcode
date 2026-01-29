@@ -23,3 +23,8 @@ var levelOrder = function (root) {
 
   return res;
 };
+
+// https://leetcode.com/problems/binary-tree-level-order-traversal
+// example Input: root = [3,9,20,null,null,15,7] Output: [[3],[9,20],[15,7]]
+// example Input: root = [1] Output: [[1]]
+// example Input: root = [] Output: []

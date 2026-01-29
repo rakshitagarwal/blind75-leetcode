@@ -23,5 +23,6 @@ var longestPalindrome = function (s) {
   return longest;
 };
 
+// https://leetcode.com/problems/longest-palindromic-substring/
 //  s = "babad" output = "bab"
 //  s = "cbbd" output = "bb"

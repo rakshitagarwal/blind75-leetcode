@@ -17,6 +17,9 @@ var maxPathSum = function (root) {
   return max;
 };
 
-// example
+// https://leetcode.com/problems/binary-tree-maximum-path-sum/
+// example Input: root = [1,2,3]
+// Output: 6
+
 // Input: root = [-10,9,20,null,null,15,7]
 // Output: 42

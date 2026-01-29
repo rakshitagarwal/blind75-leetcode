@@ -50,5 +50,6 @@ function findKth(arr, k) {
   }
 }
 
+// https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 // root = [3, 1, 4, null, 2], k = 1
 // output: 1

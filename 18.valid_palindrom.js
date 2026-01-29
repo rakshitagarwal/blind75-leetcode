@@ -30,3 +30,7 @@ function isPal(s) {
   }
   return true;
 }
+
+// https://leetcode.com/problems/valid-palindrome/
+// example Input: s = "A man, a plan, a canal: Panama" Output: true
+// example Input: s = "race a car" Output: false

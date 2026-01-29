@@ -39,6 +39,7 @@ var minWindow = function (s, t) {
   return minWindow;
 };
 
+// https://leetcode.com/problems/minimum-window-substring/
 // example Input: s = "ADOBECODEBANC", t = "ABC" Output: "BANC"
 // example Input: s = "a", t = "a" Output: "a"
 // example Input: s = "a", t = "aa" Output: ""

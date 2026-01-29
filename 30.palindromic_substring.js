@@ -22,6 +22,7 @@ var countSubstrings = function (s) {
   return count;
 };
 
+// https://leetcode.com/problems/palindromic-substrings/
 console.log(countSubstrings("abc"));
 // 3 ["a", "b", "c"]
 console.log(countSubstrings("aaa"));

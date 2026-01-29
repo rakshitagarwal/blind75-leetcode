@@ -19,3 +19,8 @@ var isSameTree = function (p, q) {
 
   return false;
 };
+
+// https://leetcode.com/problems/same-tree/
+// example Input: p = [1,2,3], q = [1,2,3] Output: true
+// example Input: p = [1,2], q = [1,null,2] Output: false
+// example Input: p = [1,2,1], q = [1,1,2] Output: false

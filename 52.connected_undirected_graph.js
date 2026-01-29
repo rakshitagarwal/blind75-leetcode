@@ -26,6 +26,7 @@ var countComponents = function (n, edges) {
   return count;
 };
 
+// https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 // example 1
 // Input: n = 5, edges = [[0,1],[1,2],[3,4]]
 // Output: 2

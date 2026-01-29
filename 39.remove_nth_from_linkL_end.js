@@ -19,4 +19,5 @@ var removeNthFromEnd = function (head, n) {
   return dummy.next;
 };
 
+// https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 // example Input: head = [1,2,3,4,5], n = 2 Output: [1,2,3,5]
